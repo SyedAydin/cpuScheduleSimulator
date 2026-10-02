@@ -1,0 +1,3 @@
+C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build/CMakeFiles/cpuScheduleSimulator.dir
+C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build/CMakeFiles/edit_cache.dir
+C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build/CMakeFiles/rebuild_cache.dir

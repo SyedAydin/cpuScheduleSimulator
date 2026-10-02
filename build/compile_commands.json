@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\cpuScheduleSimulator.dir\\src\\main.cpp.obj -c C:\\Users\\34ydi\\Desktop\\Uni\\CS2PLC\\cpuScheduleSimulator\\src\\main.cpp",
+  "file": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/main.cpp",
+  "output": "CMakeFiles/cpuScheduleSimulator.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\cpuScheduleSimulator.dir\\src\\Scheduler.cpp.obj -c C:\\Users\\34ydi\\Desktop\\Uni\\CS2PLC\\cpuScheduleSimulator\\src\\Scheduler.cpp",
+  "file": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Scheduler.cpp",
+  "output": "CMakeFiles/cpuScheduleSimulator.dir/src/Scheduler.cpp.obj"
+},
+{
+  "directory": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\cpuScheduleSimulator.dir\\src\\FCFSScheduler.cpp.obj -c C:\\Users\\34ydi\\Desktop\\Uni\\CS2PLC\\cpuScheduleSimulator\\src\\FCFSScheduler.cpp",
+  "file": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/FCFSScheduler.cpp",
+  "output": "CMakeFiles/cpuScheduleSimulator.dir/src/FCFSScheduler.cpp.obj"
+},
+{
+  "directory": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\cpuScheduleSimulator.dir\\src\\Simulation.cpp.obj -c C:\\Users\\34ydi\\Desktop\\Uni\\CS2PLC\\cpuScheduleSimulator\\src\\Simulation.cpp",
+  "file": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Simulation.cpp",
+  "output": "CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj"
+},
+{
+  "directory": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\cpuScheduleSimulator.dir\\src\\Metrics.cpp.obj -c C:\\Users\\34ydi\\Desktop\\Uni\\CS2PLC\\cpuScheduleSimulator\\src\\Metrics.cpp",
+  "file": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Metrics.cpp",
+  "output": "CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cpuScheduleSimulator.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\cpuScheduleSimulator.dir/objects.a @CMakeFiles\cpuScheduleSimulator.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cpuScheduleSimulator.dir/objects.a -Wl,--no-whole-archive -o cpuScheduleSimulator.exe -Wl,--out-implib,libcpuScheduleSimulator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cpuScheduleSimulator.dir\linkLibs.rsp
