@@ -1,6 +1,9 @@
-#include "Scheduler.hpp"
 #include <iostream>
 #include <vector>
+
+#include "Scheduler.hpp"
+#include "Metrics.hpp"
+
 
 int main(){
 
@@ -14,7 +17,9 @@ std::vector<Process> processes = {
 
 
 FCFSScheduler scheduler;
-std::vector<ExecutionSlice> timeline = scheduler.schedule(processes);
+auto timeline = scheduler.schedule(processes);
+
+auto metrics = calculateMetrics(processes, timeline);
 
 std::cout << "Execution Timeline:\n\n";
 for (const auto& slice : timeline) 
@@ -22,5 +27,22 @@ for (const auto& slice : timeline)
     << ": " << slice.startTime 
     << " -> " << slice.endTime << '\n'; }
 
-    return 0;
+std::cout << "\nMetrics\n";
+std::cout << "-------\n";
+
+
+for (const auto& metric : metrics) {
+    std::cout
+        << "P" << metric.pid
+        << " | Completion: " << metric.completionTime
+        << " | Turnaround: " << metric.turnaroundTime
+        << " | Waiting: " << metric.waitingTime
+        << " | Response: " << metric.responseTime
+        << '\n';
 }
+
+
+    return 0;
+
+}
+
