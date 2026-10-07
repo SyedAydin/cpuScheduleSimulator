@@ -3,6 +3,7 @@
 #include <algorithm>
 
 std::vector<ExecutionSlice> FCFSScheduler::schedule(std::vector<Process> &processes) {
+std::vector<ExecutionSlice> FCFSScheduler::schedule(std::vector<Process> processes) {
     std::vector<ExecutionSlice> timeline;
 
     // Sort processes by arrival time

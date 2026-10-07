@@ -143,7 +143,7 @@ CMakeFiles/cpuScheduleSimulator.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc \
  C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/include/Scheduler.hpp \
- C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/include/Types.hpp \
  C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/include/Process.hpp \
+ C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/include/Types.hpp \
  C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/include/Metrics.hpp \
  C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/include/SJFScheduler.hpp
