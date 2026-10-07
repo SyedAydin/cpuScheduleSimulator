@@ -116,11 +116,26 @@ CMakeFiles/cpuScheduleSimulator.dir/src/FCFSScheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpuScheduleSimulator.dir/src/FCFSScheduler.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\src\FCFSScheduler.cpp -o CMakeFiles\cpuScheduleSimulator.dir\src\FCFSScheduler.cpp.s
 
+CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj: CMakeFiles/cpuScheduleSimulator.dir/flags.make
+CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj: CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp
+CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj: C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/SJFScheduler.cpp
+CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj: CMakeFiles/cpuScheduleSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj -MF CMakeFiles\cpuScheduleSimulator.dir\src\SJFScheduler.cpp.obj.d -o CMakeFiles\cpuScheduleSimulator.dir\src\SJFScheduler.cpp.obj -c C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\src\SJFScheduler.cpp
+
+CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\src\SJFScheduler.cpp > CMakeFiles\cpuScheduleSimulator.dir\src\SJFScheduler.cpp.i
+
+CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\src\SJFScheduler.cpp -o CMakeFiles\cpuScheduleSimulator.dir\src\SJFScheduler.cpp.s
+
 CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj: CMakeFiles/cpuScheduleSimulator.dir/flags.make
 CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj: CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp
 CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj: C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Simulation.cpp
 CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj: CMakeFiles/cpuScheduleSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj -MF CMakeFiles\cpuScheduleSimulator.dir\src\Simulation.cpp.obj.d -o CMakeFiles\cpuScheduleSimulator.dir\src\Simulation.cpp.obj -c C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\src\Simulation.cpp
 
 CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.i: cmake_force
@@ -135,7 +150,7 @@ CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj: CMakeFiles/cpuScheduleS
 CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj: CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp
 CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj: C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Metrics.cpp
 CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj: CMakeFiles/cpuScheduleSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj -MF CMakeFiles\cpuScheduleSimulator.dir\src\Metrics.cpp.obj.d -o CMakeFiles\cpuScheduleSimulator.dir\src\Metrics.cpp.obj -c C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\src\Metrics.cpp
 
 CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.i: cmake_force
@@ -151,6 +166,7 @@ cpuScheduleSimulator_OBJECTS = \
 "CMakeFiles/cpuScheduleSimulator.dir/src/main.cpp.obj" \
 "CMakeFiles/cpuScheduleSimulator.dir/src/Scheduler.cpp.obj" \
 "CMakeFiles/cpuScheduleSimulator.dir/src/FCFSScheduler.cpp.obj" \
+"CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj" \
 "CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj" \
 "CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj"
 
@@ -160,13 +176,14 @@ cpuScheduleSimulator_EXTERNAL_OBJECTS =
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/src/main.cpp.obj
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/src/Scheduler.cpp.obj
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/src/FCFSScheduler.cpp.obj
+cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/build.make
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/linkLibs.rsp
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/objects1.rsp
 cpuScheduleSimulator.exe: CMakeFiles/cpuScheduleSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cpuScheduleSimulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\34ydi\Desktop\Uni\CS2PLC\cpuScheduleSimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable cpuScheduleSimulator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cpuScheduleSimulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

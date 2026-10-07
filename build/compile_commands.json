@@ -19,6 +19,12 @@
 },
 {
   "directory": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\cpuScheduleSimulator.dir\\src\\SJFScheduler.cpp.obj -c C:\\Users\\34ydi\\Desktop\\Uni\\CS2PLC\\cpuScheduleSimulator\\src\\SJFScheduler.cpp",
+  "file": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/SJFScheduler.cpp",
+  "output": "CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj"
+},
+{
+  "directory": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/cpuScheduleSimulator.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\cpuScheduleSimulator.dir\\src\\Simulation.cpp.obj -c C:\\Users\\34ydi\\Desktop\\Uni\\CS2PLC\\cpuScheduleSimulator\\src\\Simulation.cpp",
   "file": "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Simulation.cpp",
   "output": "CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj"

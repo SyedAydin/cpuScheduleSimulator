@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/FCFSScheduler.cpp" "CMakeFiles/cpuScheduleSimulator.dir/src/FCFSScheduler.cpp.obj" "gcc" "CMakeFiles/cpuScheduleSimulator.dir/src/FCFSScheduler.cpp.obj.d"
   "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Metrics.cpp" "CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj" "gcc" "CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj.d"
+  "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/SJFScheduler.cpp" "CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj" "gcc" "CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj.d"
   "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Scheduler.cpp" "CMakeFiles/cpuScheduleSimulator.dir/src/Scheduler.cpp.obj" "gcc" "CMakeFiles/cpuScheduleSimulator.dir/src/Scheduler.cpp.obj.d"
   "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/Simulation.cpp" "CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj" "gcc" "CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj.d"
   "C:/Users/34ydi/Desktop/Uni/CS2PLC/cpuScheduleSimulator/src/main.cpp" "CMakeFiles/cpuScheduleSimulator.dir/src/main.cpp.obj" "gcc" "CMakeFiles/cpuScheduleSimulator.dir/src/main.cpp.obj.d"

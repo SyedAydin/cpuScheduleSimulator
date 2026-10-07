@@ -176,6 +176,30 @@ src/Metrics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpuScheduleSimulator.dir\build.make CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.s
 .PHONY : src/Metrics.cpp.s
 
+src/SJFScheduler.obj: src/SJFScheduler.cpp.obj
+.PHONY : src/SJFScheduler.obj
+
+# target to build an object file
+src/SJFScheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpuScheduleSimulator.dir\build.make CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj
+.PHONY : src/SJFScheduler.cpp.obj
+
+src/SJFScheduler.i: src/SJFScheduler.cpp.i
+.PHONY : src/SJFScheduler.i
+
+# target to preprocess a source file
+src/SJFScheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpuScheduleSimulator.dir\build.make CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.i
+.PHONY : src/SJFScheduler.cpp.i
+
+src/SJFScheduler.s: src/SJFScheduler.cpp.s
+.PHONY : src/SJFScheduler.s
+
+# target to generate assembly for a file
+src/SJFScheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpuScheduleSimulator.dir\build.make CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.s
+.PHONY : src/SJFScheduler.cpp.s
+
 src/Scheduler.obj: src/Scheduler.cpp.obj
 .PHONY : src/Scheduler.obj
 
@@ -263,6 +287,9 @@ help:
 	@echo ... src/Metrics.obj
 	@echo ... src/Metrics.i
 	@echo ... src/Metrics.s
+	@echo ... src/SJFScheduler.obj
+	@echo ... src/SJFScheduler.i
+	@echo ... src/SJFScheduler.s
 	@echo ... src/Scheduler.obj
 	@echo ... src/Scheduler.i
 	@echo ... src/Scheduler.s

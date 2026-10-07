@@ -10,6 +10,7 @@ add_executable(cpuScheduleSimulator
     src/main.cpp
     src/Scheduler.cpp
     src/FCFSScheduler.cpp
+    src/SJFScheduler.cpp
     src/Simulation.cpp
     src/Metrics.cpp
 )

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpuScheduleSimulator.dir/src/FCFSScheduler.cpp.obj.d"
   "CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj"
   "CMakeFiles/cpuScheduleSimulator.dir/src/Metrics.cpp.obj.d"
+  "CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj"
+  "CMakeFiles/cpuScheduleSimulator.dir/src/SJFScheduler.cpp.obj.d"
   "CMakeFiles/cpuScheduleSimulator.dir/src/Scheduler.cpp.obj"
   "CMakeFiles/cpuScheduleSimulator.dir/src/Scheduler.cpp.obj.d"
   "CMakeFiles/cpuScheduleSimulator.dir/src/Simulation.cpp.obj"
