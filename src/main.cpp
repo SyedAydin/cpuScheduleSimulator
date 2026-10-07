@@ -1,4 +1,3 @@
-#include <iostream>
 #include <vector>
 
 #include "Scheduler.hpp"
@@ -7,6 +6,7 @@
 
 int main(){
 
+    // FCFS UNITS
 // std::vector<Process> processes = {
 //     {1, 0, 5, 1, 5}, // pid, arrivalTime, burstTime, priority, remainingTime
 //     {2, 1, 3, 2, 3},
@@ -15,6 +15,8 @@ int main(){
 
 // };
 
+
+// SJFS UNITS
 std::vector<Process> processes = {
     {1, 0, 8, 1, 8},
     {2, 1, 4, 2, 4},
@@ -28,7 +30,6 @@ auto timeline = scheduler.schedule(processes);
 
 auto metrics = calculateMetrics(processes, timeline);
 
-std::cout << "Execution Timeline:\n\n";
 for (const auto& slice : timeline) 
 { std::cout << "P" << slice.pid 
     << ": " << slice.startTime 

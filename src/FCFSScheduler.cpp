@@ -2,31 +2,38 @@
 
 #include <algorithm>
 
-std::vector<ExecutionSlice> FCFSScheduler::schedule(std::vector<Process> &processes) {
-std::vector<ExecutionSlice> FCFSScheduler::schedule(std::vector<Process> processes) {
-    std::vector<ExecutionSlice> timeline;
+std::vector<ExecutionSlice>
+FCFSScheduler::schedule(std::vector<Process> processes)
+{
+    std::sort(
+        processes.begin(),
+        processes.end(),
+        [](const Process& a, const Process& b) {
+            return a.arrivalTime < b.arrivalTime;
+        }
+    );
 
-    // Sort processes by arrival time
-    std::sort(processes.begin(), processes.end(), [](const Process &a, const Process &b) {
-        return a.arrivalTime < b.arrivalTime;
-    });
+    std::vector<ExecutionSlice> timeline;
 
     int currentTime = 0;
 
-    for (auto &process : processes) {
+    for (const auto& process : processes) {
+
         if (currentTime < process.arrivalTime) {
-            currentTime = process.arrivalTime; // Wait for the process to arrive
+            currentTime = process.arrivalTime;
         }
 
-        ExecutionSlice slice;
-        slice.pid = process.pid;
-        slice.startTime = currentTime;
-        slice.endTime = currentTime + process.burstTime;
+        int start = currentTime;
+        int end = start + process.burstTime;
 
-        timeline.push_back(slice);
+        timeline.push_back({
+            process.pid,
+            start,
+            end
+        });
 
-        currentTime = slice.endTime; // Update current time after executing the process
+        currentTime = end;
     }
 
-    return  timeline;
+    return timeline;
 }

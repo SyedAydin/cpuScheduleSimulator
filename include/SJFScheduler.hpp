@@ -6,4 +6,6 @@ class SJFScheduler : public Scheduler {
 public:
     std::vector<ExecutionSlice>
     schedule(std::vector<Process> processes) override;
+
 };
+
