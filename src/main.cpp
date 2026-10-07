@@ -1,4 +1,5 @@
 #include <vector>
+#include <iostream>
 
 #include "Scheduler.hpp"
 #include "Metrics.hpp"
