@@ -1,0 +1,10 @@
+^C:\USERS\34YDI\DESKTOP\PROJECTS\CV PROJECTS\CPUSCHEDULESIMULATOR\BUILD\CMAKEFILES\AFCC732EB8DFDFCA119FF1772429FEF5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/34ydi/Desktop/Projects/CV PROJECTS/cpuScheduleSimulator" "-BC:/Users/34ydi/Desktop/Projects/CV PROJECTS/cpuScheduleSimulator/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/34ydi/Desktop/Projects/CV PROJECTS/cpuScheduleSimulator/build/cpuScheduleSimulator.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

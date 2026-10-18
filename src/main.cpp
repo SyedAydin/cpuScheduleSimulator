@@ -4,6 +4,7 @@
 #include "Scheduler.hpp"
 #include "Metrics.hpp"
 #include "SJFScheduler.hpp"
+#include "SRTFScheduler.hpp"
 
 int main(){
 
@@ -18,6 +19,14 @@ int main(){
 
 
 // SJFS UNITS
+// std::vector<Process> processes = {
+//     {1, 0, 8, 1, 8},
+//     {2, 1, 4, 2, 4},
+//     {3, 2, 2, 1, 2},
+//     {4, 3, 1, 3, 1}
+// };
+
+//SRTF UNITS
 std::vector<Process> processes = {
     {1, 0, 8, 1, 8},
     {2, 1, 4, 2, 4},
@@ -25,20 +34,18 @@ std::vector<Process> processes = {
     {4, 3, 1, 3, 1}
 };
 
-
-SJFScheduler scheduler;
+SRTFScheduler scheduler;
 auto timeline = scheduler.schedule(processes);
 
 auto metrics = calculateMetrics(processes, timeline);
 
-for (const auto& slice : timeline) 
-{ std::cout << "P" << slice.pid 
-    << ": " << slice.startTime 
-    << " -> " << slice.endTime << '\n'; }
+std::cout << "Execution Timeline:\n\n";
 
-std::cout << "\nMetrics\n";
-std::cout << "-------\n";
-
+for (const auto& slice : timeline) {
+    std::cout << "P" << slice.pid
+              << ": " << slice.startTime
+              << " -> " << slice.endTime << '\n';
+}
 
 for (const auto& metric : metrics) {
     std::cout

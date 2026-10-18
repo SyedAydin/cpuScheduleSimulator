@@ -1,12 +1,10 @@
 #include "SJFScheduler.hpp"
 
-#include <iostream>
 #include <limits>
 
 std::vector<ExecutionSlice>
 SJFScheduler::schedule(std::vector<Process> processes)
 {
-    std::cout << "SJF SCHEDULER IS RUNNING\n";
 
     std::vector<ExecutionSlice> timeline;
 
