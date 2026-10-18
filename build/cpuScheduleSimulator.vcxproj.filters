@@ -16,6 +16,9 @@
     <ClCompile Include="C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\SRTFScheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\PriorityScheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\Simulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

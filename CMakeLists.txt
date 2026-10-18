@@ -12,6 +12,7 @@ add_executable(cpuScheduleSimulator
     src/FCFSScheduler.cpp
     src/SJFScheduler.cpp
     src/SRTFScheduler.cpp
+    src/PriorityScheduler.cpp
     src/Simulation.cpp
     src/Metrics.cpp
 )

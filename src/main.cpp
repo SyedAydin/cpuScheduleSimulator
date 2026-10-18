@@ -5,6 +5,8 @@
 #include "Metrics.hpp"
 #include "SJFScheduler.hpp"
 #include "SRTFScheduler.hpp"
+#include "PriorityScheduler.hpp"
+
 
 int main(){
 
@@ -27,6 +29,14 @@ int main(){
 // };
 
 //SRTF UNITS
+// std::vector<Process> processes = {
+//     {1, 0, 8, 1, 8},
+//     {2, 1, 4, 2, 4},
+//     {3, 2, 2, 1, 2},
+//     {4, 3, 1, 3, 1}
+// };
+
+//Priority Scheduler UNITS
 std::vector<Process> processes = {
     {1, 0, 8, 1, 8},
     {2, 1, 4, 2, 4},
@@ -34,7 +44,7 @@ std::vector<Process> processes = {
     {4, 3, 1, 3, 1}
 };
 
-SRTFScheduler scheduler;
+PriorityScheduler scheduler;
 auto timeline = scheduler.schedule(processes);
 
 auto metrics = calculateMetrics(processes, timeline);
@@ -64,4 +74,4 @@ for (const auto& metric : metrics) {
 
 
 // cmake --build build
-// .\build\cpuScheduleSimulator.exe
+// .\build\Debug\cpuScheduleSimulator.exe

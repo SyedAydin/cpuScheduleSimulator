@@ -3,5 +3,6 @@ C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\Scheduler.c
 C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\FCFSScheduler.cpp;C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\build\cpuScheduleSimulator.dir\Debug\FCFSScheduler.obj
 C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\SJFScheduler.cpp;C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\build\cpuScheduleSimulator.dir\Debug\SJFScheduler.obj
 C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\SRTFScheduler.cpp;C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\build\cpuScheduleSimulator.dir\Debug\SRTFScheduler.obj
+C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\PriorityScheduler.cpp;C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\build\cpuScheduleSimulator.dir\Debug\PriorityScheduler.obj
 C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\Simulation.cpp;C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\build\cpuScheduleSimulator.dir\Debug\Simulation.obj
 C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\src\Metrics.cpp;C:\Users\34ydi\Desktop\Projects\CV PROJECTS\cpuScheduleSimulator\build\cpuScheduleSimulator.dir\Debug\Metrics.obj
